@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo to Flowchart</title>
+    <link rel="stylesheet" href="../style.css">
+    <script src="../script.js"></script>
+
+    <!-- Mermaid.js -->
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+
+    <!-- Mermaid CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.css" />
+
+</head>
+
+<body>
+    <header id="header">
+        <h1><a href="../index.html" class="logo">Hello</a></h1>
+        <nav>
+            <ul>
+                <li><a href=#hero>HOME</a></li>
+                <li><a href=#about>ABOUT</a></li>
+                <li><a href=#info>INFO</a></li>
+                <li><a href=#services>SERVICES</a></li>
+                <li><a href="contact.html" class="cta_buy">Click Me!</a></li>
+            </ul>
+        </nav>
+        <button id="menuBurger">|||</button>
+    </header>
+
+    <section id="mobileMenu">
+        <a href=#hero>HOME</a>
+        <a href=#hero>HOME</a>
+        <a href=#hero>HOME</a>
+        <a href=#hero>HOME</a>
+    </section>
+
+    <div id="headerFill"></div>
+
+    <br><br><br><br>
+
+    <section id="pseudoContainer">
+        <form action="PseudoFlow.php" method="post">
+            <textarea id="pseudo" name="pseudoContent" cols="60" rows="25" style="resize: vertical"></textarea>
+            <input type="submit" name="submit" value="Submit">
+        </form>
+        <br>
+    
+        <pre class="mermaid">
+            graph TD
+                A([Start]) --> B[/Input/]
+                B --> C{{IF Conditional}}
+                C --> |True| D(Valid)
+                D & E --> F[/Output/]
+                F --> G([End])
+                C --> |False| E(Invalid)
+        </pre>
+    </section>
+
+</body>
+</html>

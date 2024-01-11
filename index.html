@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Finn Middleton Portfolio">
+    <meta name="keywords" content="Middleton, Portfolio, Web Development, Photography, Programming, Programmer, Web Dev">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <title>Finn Middleton</title>
+
+    <script defer src="https://kit.fontawesome.com/e17e3207d2.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.5.1/dist/simpleParallax.min.js"></script>
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header id="header">
+        <h1><a href="index.html" class="logo">Finn Middleton</a></h1>
+        <nav>
+            <ul>
+                <li><a href=#hero>HOME</a></li>
+                <li><a href=#about>ABOUT</a></li>
+                <li><a href="projects.html">PROJECTS</a></li>
+                <li><a href="resume.html">RESUME</a></li>
+                <li><a href="contact.html" class="cta_buy">CONTACT</a></li>
+            </ul>
+        </nav>
+        <button id="menuBurger">|||</button>
+    </header>
+    
+    <section id="mobileMenu">
+        <a href="index.html">HOME</a>
+        <a href="index.html#about">ABOUT</a>
+        <a href="projects.html#projects">PROJECTS</a>
+        <a href="index.html#info">INFO</a>
+        <a href="index.html#services">SERVICES</a>
+        <a href="contact.html">CONTACT</a>
+    </section>
+
+    <section id="hero" class="">
+        <div class="parallax-image">
+            <img class="parTest" src="images/Hero_Image.jpeg">
+        </div>
+        <div class="textBox fadeIn">
+            <h2>Welcome!</h2>
+            <p>Learn about what I've been up to</p>
+            <br>
+            <a href="projects.html" class="cta_na">Learn More &#187;</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <!-- TODO: add hover icons on portrait -->
+        <div class="textBox">
+            <h2>Meet Finn</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi cumque minus corrupti? Provident sequi officia minus esse repudiandae magni quaerat quae. Obcaecati atque, enim culpa deserunt ipsum aliquid fuga quibusdam totam natus in amet laborum vel hic facilis accusamus ipsam autem quo eos modi doloribus. Maiores est hic quidem dolor!</p>
+        </div>
+        <img class="portrait" src="images/FinnPortrait.jpg" alt="Founder Portrait">
+    </section>
+
+    <section id="info">
+        <img class="portrait" src="images/Laptop.png" alt="Laptop">
+        <div class="textBox">
+            <h2>Our Info</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi cumque minus corrupti? Provident sequi officia minus esse repudiandae magni quaerat quae. Obcaecati atque, enim culpa deserunt ipsum aliquid fuga quibusdam totam natus in amet laborum vel hic facilis accusamus ipsam autem quo eos modi doloribus. Maiores est hic quidem dolor!</p>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="textBox">
+            <h2>Recent Projects</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi cumque minus corrupti? Provident sequi officia minus esse repudiandae magni quaerat quae. Obcaecati atque, enim culpa deserunt ipsum aliquid fuga</p>
+        </div>
+        <section id="collapsibleBox">
+            <div class="collapsible-container">
+                <button class="collapsible">&nbsp;<i class="fa-solid fa-cake-candles"></i>&nbsp;&nbsp;&nbsp; Parties and Events</button>
+                <div class="content">
+                    <p>Here is the content of the collapsible container. <a href=#>Learn More &#187;</a></p>
+                </div>
+            </div>
+                
+            <div class="collapsible-container">
+                <button class="collapsible">&#8202;<i class="fa-solid fa-school"></i>&nbsp;&nbsp;&nbsp;Schools and Corporate</button>
+                <div class="content">
+                    <p>Here is the content of the second collapsible container. <a href=#>Learn More &#187;</a></p>
+                </div>
+            </div>
+
+            <div class="collapsible-container">
+                <button class="collapsible">&nbsp;<i class="fa-solid fa-camera"></i>&nbsp;&nbsp;&nbsp; Markets and Media</button>
+                <div class="content">
+                    <p>Here is the content of the third collapsible container. <a href=#>Learn More &#187;</a></p>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <footer id="footer">
+        <div class="footer-links">
+            <a href="#">Admin</a>
+            <a href="sitemap.html">Sitemap</a>
+            <a href="contact.html">Contact</a>
+        </div>
+        <div class="social-icons">
+            <a href="https://github.com/finnmidd" target="_blank">
+                <img src="images/github-Icon.svg" alt="GitHub">
+            </a>
+            <a href="https://www.linkedin.com/in/finnmiddleton" target="_blank">
+                <img src="images/Linkedin-Icon.svg" alt="LinkedIn">
+            </a>
+        </div>
+    </footer>
+
+    <!-- TODO Make Year update with PHP -->
+    <footer id="subFooter">
+        <p>&copy; 2023 <a href="https://www.finnmiddleton.com">Finn Middleton</a>. All rights reserved.</p>
+        
+    </footer>
+
+</body>
+</html>
