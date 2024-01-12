@@ -131,7 +131,7 @@
 
     <!-- TODO Make Year update with PHP -->
     <footer id="subFooter">
-        <p>&copy; 2023 <a href="https://www.finnmiddleton.com">Finn Middleton</a>. All rights reserved.</p>
+        <p>&copy; <?php echo date("Y"); ?> <a href="https://www.finnmiddleton.com">Finn Middleton</a>. All rights reserved.</p>
         
     </footer>
 
