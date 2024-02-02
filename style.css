@@ -205,10 +205,17 @@ html {
 #footer .footer-links a:hover {
     transform: translateX(3px);
     color: rgb(255, 255, 255);
+    color: var(--headerBgColor);
+    /* TODO: remove footer-links */
 }
 #footer .footer-links {
     display: flex;
     flex-direction: column;
+}
+#footer .footer-links a {
+    color: var(--headerBgColor);
+    cursor: default;
+    /* TODO: remove footer-links */
 }
 #footer .social-icons {
     display: flex;
@@ -654,6 +661,14 @@ html {
     animation-delay: 0.5s;
 }
 
+/** Admin */
+#admin {
+    background-color: white;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 /*! Media Queries */
 /*! ------------  */

@@ -22,7 +22,7 @@
     <!-- Header Content -->
 
     <header id="header">
-        <h1 class="logo"><a href="index.html" id="logo" class="logo">Finn Middleton</a></h1>
+        <h1 class="logo"><a href="index.php" id="logo" class="logo">Finn Middleton</a></h1>
         <nav>
             <ul>
                 <li><a href=#hero>HOME</a></li>
@@ -113,8 +113,8 @@
     <footer id="footer">
         <div class="footer-links m-hide">
             <a href="#">Admin</a>
-            <a href="sitemap.html">Sitemap</a>
-            <a href="contact.html">Contact</a>
+            <a href="#">Sitemap</a>
+            <a href="#">Contact</a>
         </div>
         <div class="social-icons">
             <a href="https://github.com/finnmidd" target="_blank">
@@ -129,7 +129,6 @@
         </div>
     </footer>
 
-    <!-- TODO Make Year update with PHP -->
     <footer id="subFooter">
         <p>&copy; <?php echo date("Y"); ?> <a href="https://www.finnmiddleton.com">Finn Middleton</a>. All rights reserved.</p>
         
